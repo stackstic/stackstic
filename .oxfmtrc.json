@@ -1,0 +1,16 @@
+{
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  "ignorePatterns": [],
+  "jsdoc": {
+    "bracketSpacing": true,
+    "descriptionWithDot": true,
+    "preferCodeFences": true,
+    "separateReturnsFromParam": true,
+    "separateTagGroups": true
+  },
+  "singleAttributePerLine": true,
+  "sortImports": true,
+  "sortPackageJson": {
+    "sortScripts": true
+  }
+}

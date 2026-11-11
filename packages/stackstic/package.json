@@ -1,0 +1,39 @@
+{
+  "$schema": "https://schemastore.org/package",
+  "name": "stackstic",
+  "version": "0.0.0",
+  "description": "One framework. Every interface",
+  "keywords": [
+    "every",
+    "framework",
+    "interface",
+    "one"
+  ],
+  "homepage": "https://github.com/stackstic/stackstic/tree/master/packages/stackstic#readme",
+  "bugs": {
+    "url": "https://github.com/stackstic/stackstic/issues"
+  },
+  "license": "MIT",
+  "author": "Hunar Roop Kahlon <hunarroopcodes@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stackstic/stackstic.git",
+    "directory": "packages/stackstic"
+  },
+  "files": [
+    "./LICENSE",
+    "./README.md",
+    "./dist",
+    "./package.json",
+    "./src"
+  ],
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    "./LICENSE": "./LICENSE",
+    "./package.json": "./package.json"
+  },
+  "engines": {
+    "node": "^26.13"
+  }
+}

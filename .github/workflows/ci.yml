@@ -11,6 +11,15 @@ jobs:
         uses: pnpm/setup@v3
       - name: run `pnpm run fmt:check --no-error-on-unmatched-pattern`
         run: pnpm run fmt:check --no-error-on-unmatched-pattern
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v7
+      - name: setup pnpm
+        uses: pnpm/setup@v3
+      - name: run `pnpm run lint --no-error-on-unmatched-pattern`
+        run: pnpm run lint --no-error-on-unmatched-pattern
   typecheck:
     runs-on: ubuntu-latest
     steps:

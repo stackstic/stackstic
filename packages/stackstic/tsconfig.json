@@ -3,7 +3,8 @@
   "compilerOptions": {
     "customConditions": ["stackstic:src"],
     "outDir": "./dist",
-    "rootDir": "./src"
+    "rootDir": "./src",
+    "types": ["node"]
   },
   "extends": ["../../.tsconfig.json"],
   "files": []

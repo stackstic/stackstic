@@ -38,6 +38,7 @@
     "ts:emit": "tsc --build"
   },
   "devDependencies": {
+    "@types/node": "catalog:",
     "typescript": "catalog:"
   },
   "engines": {

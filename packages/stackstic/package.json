@@ -34,6 +34,7 @@
     "./package.json": "./package.json"
   },
   "scripts": {
+    "test": "node --conditions 'stackstic/src' --test --experimental-test-coverage --test-reporter lcov --test-reporter-destination ./coverage/lcov.info --test-reporter junit --test-reporter-destination ./coverage/junit.xml",
     "ts:check": "tsc --noEmit",
     "ts:emit": "tsc --build"
   },
